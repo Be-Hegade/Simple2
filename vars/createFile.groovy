@@ -1,8 +1,6 @@
 def call(String fileName){
-   //  echo "Name is ${config.name} and age is ${config.age}"
-   
-   sh'''
+    // sh'''
                pwd
-               mkdir $fileName
-               '''
+               mkdir ${fileName}
+           //    '''
 }
