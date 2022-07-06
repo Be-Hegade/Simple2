@@ -1,6 +1,6 @@
 def call(){
      sh'''
           pwd
-          mkdir FileName
+          mkdir NewFile
        '''
 }
