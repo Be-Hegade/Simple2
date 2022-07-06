@@ -1,7 +1,6 @@
-def call(String fileName){
-     echo "Filename is $fileName"
+def call(){
      sh'''
-               pwd
-               mkdir $1
-              '''
+          pwd
+          mkdir FileName
+       '''
 }
